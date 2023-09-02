@@ -57,7 +57,7 @@ fun PlotSurface() {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement =Arrangement.Center
         ){
-                Box(Modifier.background(Color.Yellow).size(300.dp)
+                Box(Modifier.background(Color.Blue).size(300.dp)
                 ){
                     Map(xPercent,yPercent)
                 }
